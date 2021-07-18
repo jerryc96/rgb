@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.square {
+  background: #fff;
+  border: 2px solid #fff;
+  float: left;
+  height: 100%;
+  padding: 1;
+  width: 100%;
+  object-fit: contain;
+}
+
+.square:hover{
+  opacity:0.5;
+}
+
+.square:disabled{
+  opacity:0.5;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.gameboard {
+  border: 2px solid #000;
+}
+
+.row {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+}
